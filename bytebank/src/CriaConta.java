@@ -18,6 +18,15 @@ public class CriaConta {
 		System.out.println("A primeira conta tem " + primeiraConta.saldo);
 		System.out.println("A segunda conta tem " + segundaConta.saldo);
 		
+		segundaConta.agencia = 146;
+        System.out.println("agora a segunda conta está na agencia " + segundaConta.agencia);
+
+        if(primeiraConta == segundaConta) {
+            System.out.println("mesma conta");
+        } else {
+            System.out.println("contas diferentes");
+        }
+		
 		/*
 		 Quando os valores não são atribuidos nas variaveis
 		 que estão fora do main o valor que é dado para ele
