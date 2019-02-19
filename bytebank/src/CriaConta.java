@@ -17,6 +17,16 @@ public class CriaConta {
 		
 		System.out.println("A primeira conta tem " + primeiraConta.saldo);
 		System.out.println("A segunda conta tem " + segundaConta.saldo);
+		
+		/*
+		 Quando os valores não são atribuidos nas variaveis
+		 que estão fora do main o valor que é dado para ele
+		 é o default, no caso de int será 0
+		 */
+		
+		System.out.println(primeiraConta.agencia);
+		System.out.println(primeiraConta.numero);
+		
 	}
 
 }
